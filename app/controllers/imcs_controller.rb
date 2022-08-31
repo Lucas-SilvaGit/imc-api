@@ -1,0 +1,2 @@
+class ImcsController < ApplicationController
+end
