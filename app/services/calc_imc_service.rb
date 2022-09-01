@@ -6,8 +6,8 @@ class CalcImcService
   attr_accessor :height, :weight
 
   def initialize(height, weight) 
-    @height = height
-    @weight = weight
+    @height = height.to_f
+    @weight = weight.to_f
   end
 
   def call
